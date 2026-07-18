@@ -34,8 +34,8 @@ const scheduleData = {
     "PA": "Putri Arianti, S.Pd",
     "FY": "Fitri Yani, S.Pd",
     "YL": "Yuliani Mutia Wahna, S.Pd",
-    "AS": "Guru PKN (AS)",
-    "JS": "Guru PJOK (JS)"
+    "AS": "Aulia Safira",
+    "JS": "Jamil Sagala"
   },
   "schedule": {
     "SENIN": [
