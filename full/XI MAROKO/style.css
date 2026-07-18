@@ -108,6 +108,8 @@ body {
     align-items: center;
     gap: 12px;
     color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .logo-icon {

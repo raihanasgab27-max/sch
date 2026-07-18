@@ -45,7 +45,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg-primar
 
 .sidebar-header { margin-bottom: 32px; }
 
-.logo-container { display: flex; align-items: center; gap: 10px; }
+.logo-container { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; cursor: pointer; }
 .logo-icon { width: 32px; height: 32px; color: var(--accent); }
 .logo-text { font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.3px; }
 
