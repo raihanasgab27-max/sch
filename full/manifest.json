@@ -1,0 +1,19 @@
+{
+  "name": "Jadwal Pelajaran SMP IT Madani",
+  "short_name": "Jadwal SMP",
+  "description": "Jadwal pelajaran SMP Swasta IT Madani",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0a0c10",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pelajaran VIII PALESTINA - SMP Swasta IT Madani</title>
+    <meta name="theme-color" content="#0a0c10">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="logo-text">SMP IT Madani</span>
+                </div>
+            </div>
+            
+            <div class="class-card">
+                <div class="class-badge">KELAS</div>
+                <h1 class="class-title">VIII PALESTINA</h1>
+                <p class="school-subtitle">SMP Swasta IT Madani</p>
+                <div class="divider"></div>
+                <div class="meta-row">
+                    <span class="meta-label">Wali Kelas:</span>
+                    <span class="meta-value">Ust. Maryono, S.Pd</span>
+                </div>
+                <div class="meta-row">
+                    <span class="meta-label">Tahun Ajaran:</span>
+                    <span class="meta-value">2026 / 2027</span>
+                </div>
+                <div class="meta-row">
+                    <span class="meta-label">Semester:</span>
+                    <span class="meta-value">Genap</span>
+                </div>
+            </div>
+
+            <div class="stats-panel">
+                <h3>Ringkasan Kelas</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <span class="stat-num" id="total-subjects">0</span>
+                        <span class="stat-label">Mata Pelajaran</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" id="total-teachers">0</span>
+                        <span class="stat-label">Guru Pengajar</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theme-toggle-container">
+                <button id="theme-toggle" class="theme-btn">
+                    <span class="theme-btn-icon">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="4.22" x2="19.78" y2="5.64"></line>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </span>
+                    <span class="theme-btn-text">Ganti Tema</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <div class="header-left">
+                    <h2 class="section-title">Jadwal Mingguan</h2>
+                    <p class="section-desc">Pilih hari untuk melihat detail jadwal atau gunakan tampilan Grid.</p>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="search-input" placeholder="Cari mata pelajaran...">
+                    </div>
+                    <button class="btn btn-primary" onclick="window.print()">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                        Cetak Jadwal
+                    </button>
+                </div>
+            </header>
+
+            <div class="navigation-controls">
+                <div class="tabs-container">
+                    <button class="tab-btn active" data-day="ALL">Semua Hari</button>
+                    <button class="tab-btn" data-day="SENIN">Senin</button>
+                    <button class="tab-btn" data-day="SELASA">Selasa</button>
+                    <button class="tab-btn" data-day="RABU">Rabu</button>
+                    <button class="tab-btn" data-day="KAMIS">Kamis</button>
+                    <button class="tab-btn" data-day="JUMAT">Jumat</button>
+                    <button class="tab-btn" data-day="SABTU">Sabtu</button>
+                </div>
+                
+                <div class="view-toggle">
+                    <button class="toggle-btn active" id="view-timeline">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="8" y1="6" x2="21" y2="6"></line>
+                            <line x1="8" y1="12" x2="21" y2="12"></line>
+                            <line x1="8" y1="18" x2="21" y2="18"></line>
+                            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                        </svg>
+                        Timeline
+                    </button>
+                    <button class="toggle-btn" id="view-grid">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="9"></rect>
+                            <rect x="14" y="3" width="7" height="5"></rect>
+                            <rect x="14" y="12" width="7" height="9"></rect>
+                            <rect x="3" y="16" width="7" height="5"></rect>
+                        </svg>
+                        Grid
+                    </button>
+                </div>
+            </div>
+
+            <div id="schedule-container" class="timeline-view">
+            </div>
+
+            <section class="teacher-section">
+                <div class="section-header-inline">
+                    <h2 class="section-title">Direktori Guru Pengajar</h2>
+                    <p class="section-desc">Daftar guru pengajar dan wali kelas viii palestina beserta kode roster.</p>
+                </div>
+                <div class="teacher-grid" id="teacher-grid">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="print-only">
+        <div class="print-header">
+            <h2>SMP SWASTA IT MADANI</h2>
+            <h1>JADWAL PELAJARAN KELAS VIII PALESTINA</h1>
+            <p>Tahun Pelajaran: 2026/2027 | Wali Kelas: Ust. Maryono, S.Pd</p>
+        </div>
+        <table class="print-table">
+            <thead>
+                <tr>
+                    <th>Waktu</th>
+                    <th>Senin</th>
+                    <th>Selasa</th>
+                    <th>Rabu</th>
+                    <th>Kamis</th>
+                    <th>Jumat</th>
+                    <th>Sabtu</th>
+                </tr>
+            </thead>
+            <tbody id="print-table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js');
+    }
+    </script>
+</body>
+</html>
