@@ -637,7 +637,6 @@ document.addEventListener("DOMContentLoaded", () => {
     calculateStats();
     setupEventListeners();
     setupPrintView();
-    setupDayTracker();
     scrollToCurrentDay();
 });
 
@@ -745,71 +744,6 @@ function scrollToCurrentDay(behavior = 'auto') {
     });
 }
 
-function setupDayTracker() {
-    const mainContent = document.querySelector('.main-content');
-    const navControls = document.querySelector('.navigation-controls');
-    if (!mainContent || !navControls) return;
-
-    let tracker = document.getElementById('day-tracker');
-    if (!tracker) {
-        tracker = document.createElement('div');
-        tracker.id = 'day-tracker';
-        tracker.className = 'day-tracker';
-        document.body.appendChild(tracker);
-    }
-
-    let ticking = false;
-
-    const updateTracker = () => {
-        ticking = false;
-
-        if (currentViewMode !== 'timeline') {
-            tracker.classList.remove('visible', 'is-stuck');
-            return;
-        }
-
-        const sections = document.querySelectorAll('.day-section');
-        const mainRect = mainContent.getBoundingClientRect();
-        const isMainScrollable = mainContent.scrollHeight > mainContent.clientHeight + 1;
-        const anchorTop = Math.max(12, isMainScrollable ? mainRect.top + 12 : 12);
-        let currentDay = '';
-
-        for (let i = sections.length - 1; i >= 0; i--) {
-            const section = sections[i];
-            const rect = section.getBoundingClientRect();
-            const title = section.querySelector('.day-title-text');
-
-            if (title && rect.top <= anchorTop + 48 && rect.bottom > anchorTop + 48) {
-                currentDay = title.textContent;
-                break;
-            }
-        }
-
-        tracker.style.top = anchorTop + 'px';
-        tracker.style.left = Math.max(12, mainRect.left + 10) + 'px';
-        tracker.style.width = Math.max(180, mainRect.width - 20) + 'px';
-
-        if (currentDay) {
-            tracker.textContent = currentDay;
-            tracker.classList.add('visible', 'is-stuck');
-        } else {
-            tracker.classList.remove('visible', 'is-stuck');
-        }
-    };
-
-    const requestUpdate = () => {
-        if (!ticking) {
-            ticking = true;
-            requestAnimationFrame(updateTracker);
-        }
-    };
-
-    window.updateDayTracker = requestUpdate;
-    mainContent.addEventListener('scroll', requestUpdate, { passive: true });
-    window.addEventListener('scroll', requestUpdate, { passive: true });
-    window.addEventListener('resize', requestUpdate);
-    requestUpdate();
-}
 
 function calculateStats() {
     const uniqueSubjects = new Set();

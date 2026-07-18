@@ -286,8 +286,6 @@ body.light-theme .moon-icon {
 /* Main Content Area Styling */
 .main-content {
     padding: 40px 48px;
-    overflow-y: auto;
-    height: 100vh;
 }
 
 .main-content > * + * {
@@ -467,9 +465,11 @@ body.light-theme .moon-icon {
 
 /* Timeline View Layout */
 .timeline-view {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    display: block;
+}
+
+.timeline-view > * + * {
+    margin-top: 40px;
 }
 
 .day-section {
@@ -490,11 +490,9 @@ body.light-theme .moon-icon {
     align-items: center;
     gap: 10px;
     position: sticky;
-    top: 12px;
+    top: 0;
     z-index: 10;
     background: var(--bg-app);
-    background: color-mix(in srgb, var(--bg-app) 92%, transparent);
-    backdrop-filter: blur(12px);
     border-radius: var(--radius-sm);
 }
 
@@ -509,41 +507,6 @@ body.light-theme .moon-icon {
     border-radius: 50%;
     background-color: var(--primary-color);
     box-shadow: 0 0 10px var(--primary-color);
-}
-
-.day-tracker {
-    position: fixed;
-    top: 12px;
-    left: 0;
-    width: 0;
-    z-index: 80;
-    padding: 12px 16px;
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    font-weight: 800;
-    color: var(--primary-color);
-    background: var(--bg-app);
-    background: color-mix(in srgb, var(--bg-app) 92%, transparent);
-    backdrop-filter: blur(14px);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
-    transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.day-tracker.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.day-tracker.is-stuck {
-    opacity: 1;
 }
 
 .timeline-cards {
