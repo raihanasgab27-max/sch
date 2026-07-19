@@ -594,7 +594,7 @@ const scheduleData = {
 
 // State variables
 let currentDayFilter = "ALL";
-let currentViewMode = "timeline";
+let currentViewMode = "grid";
 let searchQuery = "";
 
 // Subject Categories for styling

@@ -185,6 +185,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const autoToggle = document.getElementById('autoscroll-toggle');
     const autoInfo = document.getElementById('autoscroll-info');
+    const tooltip = autoInfo.querySelector('.tooltip-text');
+    document.body.appendChild(tooltip);
+
+    function positionTooltip() {
+        const rect = autoInfo.getBoundingClientRect();
+        tooltip.style.top = (rect.top - 8) + 'px';
+        tooltip.style.left = (rect.left - 10) + 'px';
+        tooltip.style.transform = 'translateY(-100%)';
+    }
+
+    window.addEventListener('scroll', positionTooltip, { passive: true });
+    window.addEventListener('resize', positionTooltip);
+    autoInfo.addEventListener('mouseenter', () => {
+        positionTooltip();
+        tooltip.style.visibility = 'visible';
+        tooltip.style.opacity = '1';
+    });
+    autoInfo.addEventListener('mouseleave', () => {
+        tooltip.style.visibility = 'hidden';
+        tooltip.style.opacity = '0';
+    });
+    positionTooltip();
 
     function applyAutoScroll() {
         const saved = localStorage.getItem('autoScroll');
