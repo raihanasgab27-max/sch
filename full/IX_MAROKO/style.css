@@ -863,6 +863,143 @@ body.light-theme .moon-icon {
     }
 }
 
+@media (max-width: 480px) {
+    html, body, .app-container {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .sidebar, .main-content {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .tabs-container, .navigation-controls, .content-header, .header-actions {
+        min-width: 0;
+    }
+
+    .day-section, .timeline-view, .grid-view {
+        min-width: 0;
+    }
+
+    .sidebar {
+        padding: 20px 16px;
+        gap: 20px;
+    }
+
+    .logo-text {
+        font-size: 1.1rem;
+    }
+
+    .class-card {
+        padding: 20px 16px;
+    }
+
+    .class-title {
+        font-size: 1.6rem;
+    }
+
+    .school-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .meta-row {
+        font-size: 0.78rem;
+    }
+
+    .stats-panel h3 {
+        font-size: 0.85rem;
+    }
+
+    .stat-num {
+        font-size: 1.4rem;
+    }
+
+    .main-content {
+        padding: 20px 16px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .main-content > * + * {
+        margin-top: 20px;
+    }
+
+    .navigation-controls {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .tabs-container {
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .section-desc {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        padding: 10px 14px;
+        font-size: 0.8rem;
+    }
+
+    .tabs-container {
+        gap: 4px;
+    }
+
+    .tab-btn {
+        font-size: 0.78rem;
+        padding: 6px 12px;
+        white-space: nowrap;
+    }
+
+    .day-title-sticky {
+        font-size: 1rem;
+        padding: 8px 0;
+    }
+
+    .day-section {
+        padding-left: 14px;
+        margin-left: 6px;
+    }
+
+    .day-title-sticky::before {
+        width: 10px;
+        height: 10px;
+        left: -20px;
+    }
+
+    .timeline-card {
+        padding: 14px;
+        gap: 8px;
+    }
+
+    .grid-day-card {
+        padding: 14px;
+    }
+
+    .grid-day-header {
+        font-size: 1rem;
+    }
+
+    .grid-item {
+        padding: 10px;
+    }
+
+    .theme-btn {
+        padding: 10px 14px;
+        font-size: 0.82rem;
+    }
+
+    .teacher-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Print Styles */
 .print-only {
     display: none;
