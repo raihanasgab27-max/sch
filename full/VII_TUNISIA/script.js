@@ -1,596 +1,112 @@
-// Schedule data for TUNISIA
+// Schedule data for VII TUNISIA
 const scheduleData = {
   "class_name": "VII TUNISIA",
-  "wali_kelas": "USTZH. YULIANI MUTIA WAHNA, S.Pd",
+  "wali_kelas": "Ustzh. Yuliani Mutia Wahna, S.Pd",
   "academic_year": "2026/2027",
   "semester": "Genap",
   "teacher_map": {
-    "MR": "Maryono, S.Pd",
-    "DM": "Dara Mauliza, S.Pd",
-    "JM": "Januar Musa, S.Pd",
-    "RA": "Rahmadani Mamina, SE",
-    "RH": "Rahmad Hidayat, S.Pd.I., M.Pd",
-    "NR": "Nofa Rafiah, S.Pd",
-    "SS": "Siti Salamah S, S.Pd.I",
-    "MN": "Mirna Risafani, Lc",
-    "NJ": "Najaruddin Ritonga, S.Pd",
-    "ML": "Marlina Sukmawati, Lc",
-    "PT": "Putriany, S.Pd",
-    "QR": "Qory, S.Pd",
-    "MA": "Marwan Adha, S.Pd",
-    "VS": "Vivi Syahfitri, S.Pd",
-    "ZF": "Zulfikri, S.Fil.I",
-    "KH": "Muhammad Kholis, M.Pd",
-    "MS": "Mutiara Sari, S.Si., M.Si",
-    "NW": "Nazwa, S.Pd",
-    "MY": "Muhammad Yusuf, S.Pd",
-    "HR": "Hasrul",
-    "RM": "Muhammad Ramadan, S.Ag",
-    "DL": "Derliani Daulay, M.Pd",
-    "AF": "Akmal Fauzi, M.Pd.I",
-    "MD": "Mirdi Yandi, S.Pd",
-    "RK": "Rika Dara Yanti, S.Kom",
-    "HN": "Husni",
-    "PA": "Putri Arianti, S.Pd",
-    "FY": "Fitri Yani, S.Pd",
-    "YL": "Yuliani Mutia Wahna, S.Pd",
-    "AS": "Aulia Safira",
-    "JS": "Jamil Sagala"
-  },
+  "AF": "Akmal Fauzi, M.Pd.I",
+  "AS": "Aulia Safira",
+  "DL": "Derliani Daulay, M.Pd",
+  "FY": "Fitri Yani, S.Pd",
+  "IQ": "Iqbal",
+  "KK": "Khairul Khair, S.Pd",
+  "ML": "Marlina Sukmawati, Lc",
+  "NW": "Nazwa, S.Pd",
+  "PT": "Putriany, S.Pd",
+  "RH": "Rahmad Hidayat, S.Pd.I.,M.Pd",
+  "RK": "Rika Dara Yanti, S.Kom",
+  "SF": "Saiful",
+  "SS": "Siti Salamah S, S.Pd.I",
+  "YL": "Yuliani Mutia Wahna, S.Pd"
+},
   "schedule": {
     "SENIN": [
-      {
-        "waktu": "07.30 - 08.20",
-        "jam_ke": "0",
-        "subject": "UPACARA BENDERA",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.20 - 08.40",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA MANDIRI",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.40 - 09.20",
-        "jam_ke": "1",
-        "subject": "IPA",
-        "kode": "PT",
-        "type": "class"
-      },
-      {
-        "waktu": "09.20 - 10.00",
-        "jam_ke": "2",
-        "subject": "IPA",
-        "kode": "PT",
-        "type": "class"
-      },
-      {
-        "waktu": "10.00 - 10.40",
-        "jam_ke": "3",
-        "subject": "GRAMMAR",
-        "kode": "RH",
-        "type": "class"
-      },
-      {
-        "waktu": "10.40 - 11.00",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "11.00 - 11.40",
-        "jam_ke": "4",
-        "subject": "GRAMMAR",
-        "kode": "RH",
-        "type": "class"
-      },
-      {
-        "waktu": "11.40 - 12.20",
-        "jam_ke": "5",
-        "subject": "MATEMATIKA",
-        "kode": "DM",
-        "type": "class"
-      },
-      {
-        "waktu": "12.20 - 14.10",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT 2",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "14.10 - 14.50",
-        "jam_ke": "6",
-        "subject": "INFORMATIKA",
-        "kode": "RK",
-        "type": "class"
-      },
-      {
-        "waktu": "14.50 - 15.30",
-        "jam_ke": "7",
-        "subject": "INFORMATIKA",
-        "kode": "RK",
-        "type": "class"
-      },
-      {
-        "waktu": "15.30 - 15.45",
-        "jam_ke": "-",
-        "subject": "PIKET KEBERSIHAN KELAS",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "15.45 - 16.30",
-        "jam_ke": "-",
-        "subject": "SHOLAT ASHAR & PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.20", "jam_ke": "-", "subject": "UPACARA BENDERA", "kode": "", "type": "activity"},
+      {"waktu": "08.20-08.40", "jam_ke": "-", "subject": "SHOLAT DHUHA MANDIRI", "kode": "", "type": "activity"},
+      {"waktu": "08.40-09.20", "jam_ke": "1", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "09.20-10.00", "jam_ke": "2", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "10.00-10.40", "jam_ke": "3", "subject": "TAJWID", "kode": "ML", "type": "class"},
+      {"waktu": "10.40-11.00", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "11.00-11.40", "jam_ke": "4", "subject": "TAJWID", "kode": "ML", "type": "class"},
+      {"waktu": "11.40-12.20", "jam_ke": "5", "subject": "PAI", "kode": "AF", "type": "class"},
+      {"waktu": "12.20-13.50", "jam_ke": "-", "subject": "ISHOMA (Istirahat, Sholat, Makan)", "kode": "", "type": "break"},
+      {"waktu": "13.50-14.30", "jam_ke": "6", "subject": "PAI", "kode": "AF", "type": "class"},
+      {"waktu": "14.30-15.10", "jam_ke": "7", "subject": "GRAMMAR", "kode": "RH", "type": "class"},
+      {"waktu": "15.10-15.50", "jam_ke": "8", "subject": "GRAMMAR", "kode": "RH", "type": "class"},
+      {"waktu": "15.50-16.30", "jam_ke": "-", "subject": "PIKET KEBERSIHAN, SHOLAT ASHAR & PULANG", "kode": "", "type": "activity"}
     ],
     "SELASA": [
-      {
-        "waktu": "07.30 - 08.00",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA + AL MA'TSURAT",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.00 - 08.40",
-        "jam_ke": "1",
-        "subject": "IPA",
-        "kode": "PT",
-        "type": "class"
-      },
-      {
-        "waktu": "08.40 - 09.20",
-        "jam_ke": "2",
-        "subject": "IPA",
-        "kode": "PT",
-        "type": "class"
-      },
-      {
-        "waktu": "09.20 - 10.00",
-        "jam_ke": "3",
-        "subject": "B. INDO",
-        "kode": "FY",
-        "type": "class"
-      },
-      {
-        "waktu": "10.00 - 10.20",
-        "jam_ke": "4",
-        "subject": "B. INDO",
-        "kode": "FY",
-        "type": "class"
-      },
-      {
-        "waktu": "10.20 - 10.40",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "10.40 - 11.00",
-        "jam_ke": "-",
-        "subject": "B. INDO",
-        "kode": "FY",
-        "type": "class"
-      },
-      {
-        "waktu": "11.00 - 11.40",
-        "jam_ke": "5",
-        "subject": "CONVERSATION",
-        "kode": "NW",
-        "type": "class"
-      },
-      {
-        "waktu": "11.40 - 12.20",
-        "jam_ke": "6",
-        "subject": "CONVERSATION",
-        "kode": "NW",
-        "type": "class"
-      },
-      {
-        "waktu": "12.20 - 13.00",
-        "jam_ke": "7",
-        "subject": "PKN",
-        "kode": "AS",
-        "type": "class"
-      },
-      {
-        "waktu": "13.00 - 13.30",
-        "jam_ke": "-",
-        "subject": "MAKAN SIANG",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "13.30 - 14.10",
-        "jam_ke": "-",
-        "subject": "SHOLAT ZHUHUR",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "14.10 - 14.50",
-        "jam_ke": "8",
-        "subject": "PJOK",
-        "kode": "IQ",
-        "type": "class"
-      },
-      {
-        "waktu": "14.50 - 15.30",
-        "jam_ke": "9",
-        "subject": "PJOK",
-        "kode": "IQ",
-        "type": "class"
-      },
-      {
-        "waktu": "15.30 - 15.45",
-        "jam_ke": "-",
-        "subject": "PIKET KEBERSIHAN KELAS",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "15.45 - 16.30",
-        "jam_ke": "-",
-        "subject": "SHOLAT ASHAR & PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.00", "jam_ke": "-", "subject": "SHOLAT DHUHA + AL MA'TSURAT", "kode": "", "type": "activity"},
+      {"waktu": "08.00-08.40", "jam_ke": "1", "subject": "B. INDO", "kode": "FY", "type": "class"},
+      {"waktu": "08.40-09.20", "jam_ke": "2", "subject": "B. INDO", "kode": "FY", "type": "class"},
+      {"waktu": "09.20-10.00", "jam_ke": "3", "subject": "GRAMMAR", "kode": "RH", "type": "class"},
+      {"waktu": "10.00-10.20", "jam_ke": "4", "subject": "GRAMMAR", "kode": "RH", "type": "class"},
+      {"waktu": "10.20-10.40", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "10.40-11.00", "jam_ke": "-", "subject": "GRAMMAR", "kode": "RH", "type": "class"},
+      {"waktu": "11.00-11.40", "jam_ke": "5", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "11.40-12.20", "jam_ke": "6", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "12.20-14.10", "jam_ke": "-", "subject": "ISHOMA (Istirahat, Sholat, Makan)", "kode": "", "type": "break"},
+      {"waktu": "14.10-14.50", "jam_ke": "7", "subject": "IPA", "kode": "PT", "type": "class"},
+      {"waktu": "14.50-15.30", "jam_ke": "8", "subject": "IPA", "kode": "PT", "type": "class"},
+      {"waktu": "15.30-16.30", "jam_ke": "-", "subject": "PIKET KEBERSIHAN, SHOLAT ASHAR & PULANG", "kode": "", "type": "activity"}
     ],
     "RABU": [
-      {
-        "waktu": "07.30 - 08.00",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA + AL MA'TSURAT",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.00 - 08.40",
-        "jam_ke": "1",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "08.40 - 09.20",
-        "jam_ke": "2",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "09.20 - 10.00",
-        "jam_ke": "3",
-        "subject": "PAI",
-        "kode": "AF",
-        "type": "class"
-      },
-      {
-        "waktu": "10.00 - 10.20",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "10.20 - 11.00",
-        "jam_ke": "4",
-        "subject": "PAI",
-        "kode": "AF",
-        "type": "class"
-      },
-      {
-        "waktu": "11.00 - 11.40",
-        "jam_ke": "5",
-        "subject": "B. INDO",
-        "kode": "FY",
-        "type": "class"
-      },
-      {
-        "waktu": "11.40 - 12.20",
-        "jam_ke": "6",
-        "subject": "B. INDO",
-        "kode": "FY",
-        "type": "class"
-      },
-      {
-        "waktu": "12.20 - 13.00",
-        "jam_ke": "7",
-        "subject": "CONVERSATION",
-        "kode": "NW",
-        "type": "class"
-      },
-      {
-        "waktu": "13.00 - 13.30",
-        "jam_ke": "-",
-        "subject": "MAKAN SIANG",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "13.30 - 14.10",
-        "jam_ke": "-",
-        "subject": "SHOLAT ZHUHUR",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "14.10 - 14.50",
-        "jam_ke": "8",
-        "subject": "B. ARAB",
-        "kode": "ML",
-        "type": "class"
-      },
-      {
-        "waktu": "14.50 - 15.30",
-        "jam_ke": "9",
-        "subject": "B. ARAB",
-        "kode": "ML",
-        "type": "class"
-      },
-      {
-        "waktu": "15.30 - 15.45",
-        "jam_ke": "-",
-        "subject": "PIKET KEBERSIHAN KELAS",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "15.45 - 16.30",
-        "jam_ke": "-",
-        "subject": "SHOLAT ASHAR & PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.00", "jam_ke": "-", "subject": "SHOLAT DHUHA + AL MA'TSURAT", "kode": "", "type": "activity"},
+      {"waktu": "08.00-08.40", "jam_ke": "1", "subject": "FIQIH", "kode": "SS", "type": "class"},
+      {"waktu": "08.40-09.20", "jam_ke": "2", "subject": "FIQIH", "kode": "SS", "type": "class"},
+      {"waktu": "09.20-09.40", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "09.40-10.20", "jam_ke": "3", "subject": "B. INDO", "kode": "FY", "type": "class"},
+      {"waktu": "10.20-11.00", "jam_ke": "4", "subject": "B. INDO", "kode": "FY", "type": "class"},
+      {"waktu": "11.00-11.40", "jam_ke": "5", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "11.40-12.20", "jam_ke": "6", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "12.20-14.10", "jam_ke": "-", "subject": "ISHOMA (Istirahat, Sholat, Makan)", "kode": "", "type": "break"},
+      {"waktu": "14.10-14.50", "jam_ke": "7", "subject": "PJOK", "kode": "IQ", "type": "class"},
+      {"waktu": "14.50-15.30", "jam_ke": "8", "subject": "PJOK", "kode": "IQ", "type": "class"},
+      {"waktu": "15.30-16.30", "jam_ke": "-", "subject": "PIKET KEBERSIHAN, SHOLAT ASHAR & PULANG", "kode": "", "type": "activity"}
     ],
     "KAMIS": [
-      {
-        "waktu": "07.30 - 08.00",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA + AL MA'TSURAT",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.00 - 08.40",
-        "jam_ke": "1",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "08.40 - 09.20",
-        "jam_ke": "2",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "09.20 - 10.00",
-        "jam_ke": "3",
-        "subject": "MATEMATIKA",
-        "kode": "DM",
-        "type": "class"
-      },
-      {
-        "waktu": "10.00 - 10.20",
-        "jam_ke": "4",
-        "subject": "MATEMATIKA",
-        "kode": "DM",
-        "type": "class"
-      },
-      {
-        "waktu": "10.20 - 10.40",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "10.40 - 11.00",
-        "jam_ke": "-",
-        "subject": "MATEMATIKA",
-        "kode": "DM",
-        "type": "class"
-      },
-      {
-        "waktu": "11.00 - 11.40",
-        "jam_ke": "5",
-        "subject": "MATEMATIKA",
-        "kode": "DM",
-        "type": "class"
-      },
-      {
-        "waktu": "11.40 - 12.20",
-        "jam_ke": "6",
-        "subject": "GRAMMAR",
-        "kode": "RH",
-        "type": "class"
-      },
-      {
-        "waktu": "12.20 - 13.00",
-        "jam_ke": "7",
-        "subject": "GRAMMAR",
-        "kode": "RH",
-        "type": "class"
-      },
-      {
-        "waktu": "13.00 - 13.30",
-        "jam_ke": "-",
-        "subject": "MAKAN SIANG",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "13.30 - 14.10",
-        "jam_ke": "-",
-        "subject": "SHOLAT ZHUHUR",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "14.10 - 14.50",
-        "jam_ke": "8",
-        "subject": "IPS",
-        "kode": "RA",
-        "type": "class"
-      },
-      {
-        "waktu": "14.50 - 15.30",
-        "jam_ke": "9",
-        "subject": "IPS",
-        "kode": "RA",
-        "type": "class"
-      },
-      {
-        "waktu": "15.30 - 15.45",
-        "jam_ke": "-",
-        "subject": "PIKET KEBERSIHAN KELAS",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "15.45 - 16.30",
-        "jam_ke": "-",
-        "subject": "SHOLAT ASHAR & PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.00", "jam_ke": "-", "subject": "SHOLAT DHUHA + AL MA'TSURAT", "kode": "", "type": "activity"},
+      {"waktu": "08.00-08.40", "jam_ke": "1", "subject": "CONVERSATION", "kode": "NW", "type": "class"},
+      {"waktu": "08.40-09.20", "jam_ke": "2", "subject": "CONVERSATION", "kode": "NW", "type": "class"},
+      {"waktu": "09.20-10.00", "jam_ke": "3", "subject": "IPS", "kode": "YL", "type": "class"},
+      {"waktu": "10.00-10.20", "jam_ke": "4", "subject": "IPS", "kode": "YL", "type": "class"},
+      {"waktu": "10.20-10.40", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "10.40-11.00", "jam_ke": "-", "subject": "IPS", "kode": "YL", "type": "class"},
+      {"waktu": "11.00-11.40", "jam_ke": "5", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "11.40-12.20", "jam_ke": "6", "subject": "TAHFIDZ", "kode": "DL/SF", "type": "class"},
+      {"waktu": "12.20-14.10", "jam_ke": "-", "subject": "ISHOMA (Istirahat, Sholat, Makan)", "kode": "", "type": "break"},
+      {"waktu": "14.10-14.50", "jam_ke": "8", "subject": "MATEMATIKA", "kode": "KK", "type": "class"},
+      {"waktu": "14.50-15.30", "jam_ke": "9", "subject": "MATEMATIKA", "kode": "KK", "type": "class"},
+      {"waktu": "15.30-16.30", "jam_ke": "-", "subject": "PIKET KEBERSIHAN, SHOLAT ASHAR & PULANG", "kode": "", "type": "activity"}
     ],
     "JUMAT": [
-      {
-        "waktu": "07.30 - 08.00",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA + AL MA'TSURAT + SURAH YASIN",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.00 - 08.40",
-        "jam_ke": "1",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "08.40 - 09.00",
-        "jam_ke": "2",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "09.00 - 09.20",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "09.40 - 10.20",
-        "jam_ke": "3",
-        "subject": "FIQIH",
-        "kode": "SS",
-        "type": "class"
-      },
-      {
-        "waktu": "10.20 - 11.00",
-        "jam_ke": "4",
-        "subject": "FIQIH",
-        "kode": "SS",
-        "type": "class"
-      },
-      {
-        "waktu": "11.00 - 11.40",
-        "jam_ke": "5",
-        "subject": "CONVERSATION",
-        "kode": "NW",
-        "type": "class"
-      },
-      {
-        "waktu": "11.40 - 12.00",
-        "jam_ke": "-",
-        "subject": "PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.00", "jam_ke": "-", "subject": "SHOLAT DHUHA + AL MA'TSURAT+SURAH YASIN", "kode": "", "type": "activity"},
+      {"waktu": "08.00-08.35", "jam_ke": "1", "subject": "PKN", "kode": "AS", "type": "class"},
+      {"waktu": "08.35-08.55", "jam_ke": "2", "subject": "PKN", "kode": "AS", "type": "class"},
+      {"waktu": "08.55-09.05", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "09.05-09.20", "jam_ke": "-", "subject": "PKN", "kode": "AS", "type": "class"},
+      {"waktu": "09.20-09.55", "jam_ke": "3", "subject": "INFORMATIKA", "kode": "RK", "type": "class"},
+      {"waktu": "09.55-10.30", "jam_ke": "4", "subject": "INFORMATIKA", "kode": "RK", "type": "class"},
+      {"waktu": "10.30-11.05", "jam_ke": "5", "subject": "B. ARAB", "kode": "ML", "type": "class"},
+      {"waktu": "11.05-11.40", "jam_ke": "6", "subject": "B. ARAB", "kode": "ML", "type": "class"},
+      {"waktu": "11.40-12.00", "jam_ke": "-", "subject": "PULANG", "kode": "", "type": "activity"}
     ],
     "SABTU": [
-      {
-        "waktu": "07.30 - 08.00",
-        "jam_ke": "0",
-        "subject": "SHOLAT DHUHA + AL MA'TSURAT",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "08.00 - 08.35",
-        "jam_ke": "1",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "08.35 - 09.10",
-        "jam_ke": "2",
-        "subject": "TAHFIDZ",
-        "kode": "DN/DL",
-        "type": "class"
-      },
-      {
-        "waktu": "09.10 - 09.45",
-        "jam_ke": "3",
-        "subject": "TAJWID",
-        "kode": "ML",
-        "type": "class"
-      },
-      {
-        "waktu": "09.45 - 09.55",
-        "jam_ke": "-",
-        "subject": "ISTIRAHAT",
-        "kode": "",
-        "type": "break"
-      },
-      {
-        "waktu": "09.55 - 10.30",
-        "jam_ke": "4",
-        "subject": "TAJWID",
-        "kode": "ML",
-        "type": "class"
-      },
-      {
-        "waktu": "10.30 - 11.05",
-        "jam_ke": "5",
-        "subject": "PKN",
-        "kode": "AS",
-        "type": "class"
-      },
-      {
-        "waktu": "11.05 - 12.20",
-        "jam_ke": "-",
-        "subject": "PROGRAM MGMP, WALI KELAS, DAN LIFE SKILL",
-        "kode": "",
-        "type": "activity"
-      },
-      {
-        "waktu": "12.20 - 13.00",
-        "jam_ke": "-",
-        "subject": "SHOLAT & PULANG",
-        "kode": "",
-        "type": "activity"
-      }
+      {"waktu": "07.30-08.00", "jam_ke": "-", "subject": "SHOLAT DHUHA + AL MA'TSURAT", "kode": "", "type": "activity"},
+      {"waktu": "08.00-08.30", "jam_ke": "1", "subject": "MATEMATIKA", "kode": "KK", "type": "class"},
+      {"waktu": "08.30-09.00", "jam_ke": "2", "subject": "MATEMATIKA", "kode": "KK", "type": "class"},
+      {"waktu": "09.00-09.10", "jam_ke": "-", "subject": "ISTIRAHAT", "kode": "", "type": "break"},
+      {"waktu": "09.10-09.40", "jam_ke": "3", "subject": "IPA", "kode": "PT", "type": "class"},
+      {"waktu": "09.40-10.10", "jam_ke": "4", "subject": "IPA", "kode": "PT", "type": "class"},
+      {"waktu": "10.10-10.40", "jam_ke": "5", "subject": "CONVERSATION", "kode": "NW", "type": "class"},
+      {"waktu": "10.40-11.10", "jam_ke": "6", "subject": "CONVERSATION", "kode": "NW", "type": "class"},
+      {"waktu": "11.10-12.30", "jam_ke": "-", "subject": "PROGRAM MGMP, WALI KELAS, DAN LIFE SKILL", "kode": "", "type": "activity"},
+      {"waktu": "12.30-13.15", "jam_ke": "-", "subject": "SHOLAT + PULANG", "kode": "", "type": "activity"}
     ]
   }
 };
+
 
 // State variables
 let currentDayFilter = "ALL";
@@ -743,6 +259,7 @@ function scrollToCurrentDay(behavior = 'auto') {
         });
     });
 }
+
 
 
 function calculateStats() {

@@ -111,8 +111,8 @@ const scheduleData = {
             { waktu: "08.40 - 09.40", jam_ke: "2", subject: "INFORMATIKA", kode: "RK", type: "class" },
             { waktu: "09.40 - 10.00", jam_ke: "-", subject: "ISTIRAHAT 1", kode: "", type: "break" },
             { waktu: "10.00 - 10.20", jam_ke: "3", subject: "INFORMATIKA", kode: "RK", type: "class" },
-            { waktu: "10.20 - 11.00", jam_ke: "4", subject: "B. ARAB", kode: "NZ", type: "class" },
-            { waktu: "11.00 - 11.40", jam_ke: "5", subject: "B. ARAB", kode: "NZ", type: "class" },
+            { waktu: "10.20 - 11.00", jam_ke: "4", subject: "B. ARAB", kode: "NW", type: "class" },
+            { waktu: "11.00 - 11.40", jam_ke: "5", subject: "B. ARAB", kode: "NW", type: "class" },
             { waktu: "11.40 - 12.00", jam_ke: "-", subject: "PULANG", kode: "", type: "activity" }
         ],
         "SABTU": [
